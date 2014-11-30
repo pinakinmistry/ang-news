@@ -12,5 +12,6 @@ app.controller('NavCtrl', function ($scope, $location, Post, Auth) {
 
   $scope.signedIn = Auth.signedIn;
   $scope.logout = Auth.logout;
+  $scope.user = Auth.user;
 
 });
